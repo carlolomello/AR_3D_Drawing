@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AR_3D_Drawing" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eRg-L5-cyl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </arscnView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n2i-L9-B7H" customClass="RoundButton" customModule="AR_3D_Drawing" customModuleProvider="target">
+                                <rect key="frame" x="16" y="582" width="49" height="49"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="ABC-IL-JAg"/>
+                                    <constraint firstAttribute="width" secondItem="n2i-L9-B7H" secondAttribute="height" multiplier="1:1" id="ZR8-nf-9s3"/>
+                                    <constraint firstAttribute="height" constant="49" id="s0f-0G-IIW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f7w-zP-M3O" customClass="RoundButton" customModule="AR_3D_Drawing" customModuleProvider="target">
+                                <rect key="frame" x="163" y="582" width="49" height="49"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="9eK-GP-7ZB"/>
+                                    <constraint firstAttribute="height" constant="49" id="bjR-Wd-MUv"/>
+                                    <constraint firstAttribute="width" secondItem="f7w-zP-M3O" secondAttribute="height" multiplier="1:1" id="sod-3n-Mbs"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0C2-wM-FAp" customClass="RoundButton" customModule="AR_3D_Drawing" customModuleProvider="target">
+                                <rect key="frame" x="233" y="582" width="49" height="49"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="8fe-tq-pGV"/>
+                                    <constraint firstAttribute="width" secondItem="0C2-wM-FAp" secondAttribute="height" multiplier="1:1" id="9dS-GK-3Qd"/>
+                                    <constraint firstAttribute="width" constant="49" id="noF-3j-ddN"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gwy-Ja-tbB" customClass="RoundButton" customModule="AR_3D_Drawing" customModuleProvider="target">
+                                <rect key="frame" x="310" y="582" width="49" height="49"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="49" id="Rqy-W9-1tM"/>
+                                    <constraint firstAttribute="height" constant="49" id="tiK-vQ-lxt"/>
+                                    <constraint firstAttribute="width" secondItem="Gwy-Ja-tbB" secondAttribute="height" multiplier="1:1" id="vaF-YC-WOL"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2O-Np-yny">
+                                <rect key="frame" x="339" y="40" width="20" height="22"/>
+                                <state key="normal" image="trash" catalog="system"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WtH-Tu-lLB" customClass="RoundButton" customModule="AR_3D_Drawing" customModuleProvider="target">
+                                <rect key="frame" x="91" y="582" width="49" height="49"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="EDJ-CT-w2M"/>
+                                    <constraint firstAttribute="width" secondItem="WtH-Tu-lLB" secondAttribute="height" multiplier="1:1" id="KcW-i3-V92"/>
+                                    <constraint firstAttribute="width" constant="49" id="Ou0-4S-lpq"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="n2i-L9-B7H" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="3Rt-xd-hLd"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="3eI-QA-zA5"/>
+                            <constraint firstItem="f7w-zP-M3O" firstAttribute="leading" secondItem="WtH-Tu-lLB" secondAttribute="trailing" constant="23" id="GMx-pz-zRr"/>
+                            <constraint firstItem="Gwy-Ja-tbB" firstAttribute="leading" secondItem="0C2-wM-FAp" secondAttribute="trailing" constant="28" id="IxT-bO-6FG"/>
+                            <constraint firstItem="0C2-wM-FAp" firstAttribute="leading" secondItem="f7w-zP-M3O" secondAttribute="trailing" constant="21" id="Jf9-FE-rpY"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jjf-TS-Sey"/>
+                            <constraint firstItem="f7w-zP-M3O" firstAttribute="width" secondItem="n2i-L9-B7H" secondAttribute="width" id="Mdo-8S-oRV"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f7w-zP-M3O" secondAttribute="bottom" constant="36" id="TBl-et-T2r"/>
+                            <constraint firstItem="0C2-wM-FAp" firstAttribute="width" secondItem="n2i-L9-B7H" secondAttribute="width" id="VGM-EB-iSu"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WO4-YV-F8k"/>
+                            <constraint firstItem="Gwy-Ja-tbB" firstAttribute="width" secondItem="n2i-L9-B7H" secondAttribute="width" id="Z7I-Yy-Vi9"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="n2i-L9-B7H" secondAttribute="bottom" constant="36" id="als-gi-mXc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0C2-wM-FAp" secondAttribute="bottom" constant="36" id="bJk-8A-WHd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gwy-Ja-tbB" secondAttribute="trailing" constant="16" id="ba7-53-xu2"/>
+                            <constraint firstItem="0C2-wM-FAp" firstAttribute="height" secondItem="n2i-L9-B7H" secondAttribute="height" id="c2a-XV-Iyk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WtH-Tu-lLB" secondAttribute="bottom" constant="36" id="iG6-ZY-j1n"/>
+                            <constraint firstItem="WtH-Tu-lLB" firstAttribute="height" secondItem="n2i-L9-B7H" secondAttribute="height" id="kNA-yb-2dg"/>
+                            <constraint firstItem="Gwy-Ja-tbB" firstAttribute="height" secondItem="n2i-L9-B7H" secondAttribute="height" id="lXO-cC-QCE"/>
+                            <constraint firstItem="WtH-Tu-lLB" firstAttribute="width" secondItem="n2i-L9-B7H" secondAttribute="width" id="ljs-we-du3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Gwy-Ja-tbB" secondAttribute="bottom" constant="36" id="mLM-2N-Slz"/>
+                            <constraint firstItem="d2O-Np-yny" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="n1S-YQ-P9d"/>
+                            <constraint firstItem="eRg-L5-cyl" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="s90-3F-ZNz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="d2O-Np-yny" secondAttribute="trailing" constant="16" id="sHa-sc-MZA"/>
+                            <constraint firstItem="f7w-zP-M3O" firstAttribute="height" secondItem="n2i-L9-B7H" secondAttribute="height" id="to0-Mo-oso"/>
+                            <constraint firstItem="WtH-Tu-lLB" firstAttribute="leading" secondItem="n2i-L9-B7H" secondAttribute="trailing" constant="26" id="zPI-Pj-ehI"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="BLUE" destination="WtH-Tu-lLB" id="s3t-HG-U5o"/>
+                        <outlet property="DEL" destination="d2O-Np-yny" id="bvS-RX-MRn"/>
+                        <outlet property="GREEN" destination="0C2-wM-FAp" id="Es5-Gu-c8z"/>
+                        <outlet property="RED" destination="f7w-zP-M3O" id="8gJ-l0-dDU"/>
+                        <outlet property="WHITE" destination="Gwy-Ja-tbB" id="TjU-bz-Kg4"/>
+                        <outlet property="YELLOW" destination="n2i-L9-B7H" id="ryY-C4-tQd"/>
+                        <outlet property="sceneView" destination="eRg-L5-cyl" id="0mu-hd-Mje"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="trash" catalog="system" width="60" height="64"/>
+    </resources>
+</document>
